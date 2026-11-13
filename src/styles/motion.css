@@ -1,0 +1,28 @@
+/* Finite movement: navigation stays immediate, the page never becomes a sticky containing block. */
+@keyframes atlas-route-in { from { opacity: .35; } to { opacity: 1; } }
+@keyframes atlas-title-in { from { transform: translateY(12px); } to { transform: none; } }
+@keyframes atlas-orbit-in { from { opacity: .15; transform: rotate(-12deg) scale(.94); } to { opacity: 1; transform: none; } }
+@keyframes atlas-line-in { from { stroke-dashoffset: 1; opacity: .15; } to { stroke-dashoffset: 0; opacity: 1; } }
+@keyframes atlas-disclosure-in { from { opacity: .25; } to { opacity: 1; } }
+.route-scene[data-motion="full"] { animation: atlas-route-in 280ms ease-out; }
+.route-scene[data-motion="full"] .hero h1 { animation: atlas-title-in 600ms var(--ease-out); }
+.route-scene[data-motion="full"] .hero-visual .compass-art svg { transform-origin: 50% 50%; animation: atlas-orbit-in 1100ms var(--ease-out); }
+.route-scene[data-motion="full"] .hero-visual .art-orbit { stroke-dasharray: 1; animation: atlas-line-in 1200ms var(--ease-balanced); }
+.route-scene[data-motion="full"] [data-reveal] { transition: opacity 520ms var(--ease-out), transform 520ms var(--ease-out), box-shadow 260ms var(--ease-out), border-color 260ms; transition-delay: var(--reveal-delay, 0ms); }
+.route-scene[data-motion="full"] [data-reveal-state="pending"] { opacity: 0; transform: translateY(14px); }
+.route-scene[data-motion="full"] [data-reveal-state="visible"] { opacity: 1; transform: none; }
+@media (hover: hover) and (pointer: fine) {
+  .route-scene[data-motion="full"] .test-card[data-reveal-state="visible"]:hover { transform: translateY(-4px); }
+}
+.route-scene[data-motion="full"] [data-reveal]:focus-within { opacity: 1; transform: none; transition: none; }
+.route-scene[data-motion="full"] details[open] > :not(summary), .route-scene[data-motion="full"] dialog[open] { animation: atlas-disclosure-in 220ms ease-out; }
+.route-scene[data-motion="reduced"] [data-reveal] { opacity: 1; transform: none; clip-path: none; transition: none; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .route-scene, .route-scene [data-reveal], .route-scene .hero h1, .route-scene .compass-art svg, .question-step { opacity: 1 !important; transform: none !important; clip-path: none !important; }
+}
+@keyframes atlas-bar-in { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.route-scene[data-motion="full"] .dimension-track > span {
+  transform-origin: left;
+  animation: atlas-bar-in 600ms var(--ease-out);
+}

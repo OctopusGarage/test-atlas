@@ -1,0 +1,10 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+.DS_Store
+
+# Local agent working notes
+.local/
+.superpowers/
+docs/superpowers/

@@ -1,0 +1,152 @@
+{
+  "big-five": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "2d59799d577b071c71d8197abcfd79fa642faf8f8d87bedc198007012659c152"
+  },
+  "attachment": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "cc81560b8e6b6a1805ef50fc4f993bd7705fd1f199ab2af61d8cad1159f1be92"
+  },
+  "dark-triad": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "ea5d2b53c22b69f2bc91dee11dae415aa9f5db9de11dd8e272a6bfdb4d2bb8ef"
+  },
+  "enneagram": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "c67b99888d2bb52f5ea9d32c28bdd74376cd1d5872a34af9b70f17dd1287830d"
+  },
+  "strengths": {
+    "version": 3,
+    "scoringVersion": 1,
+    "reportVersion": 3,
+    "hash": "7af1050b6dd31672de532c1d7f978fb719f1570561e77974b18acd7f87703ab5"
+  },
+  "emotional-intelligence": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "a2f585ffd20f3bab1c121cb76cf96a9323d7d1212229b2e6b3cb78c2fe917d79"
+  },
+  "six-factor": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "45db7132d38720399ebf3c957a08fc3f05d686ea623531b216346a2d460d136c"
+  },
+  "love-expression": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "17a4c320a7061db2d76ec5759fb3f7127007c299e9d9b0ae5ba85b57bf83261c"
+  },
+  "romantic-style": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "097a0246030a6c139ad549aeda742320a12b90dad78bbf6d9ac0ac839caf5441"
+  },
+  "conflict": {
+    "version": 3,
+    "scoringVersion": 1,
+    "reportVersion": 3,
+    "hash": "7283d9ee95ec4eb30689d275b4ec4ab0a52ec17cbd8bfb72878e3cf3b75c9791"
+  },
+  "boundaries": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "1762e90572ea26efbb4cb12fd75d6ebb0e99f71fb8b1fd723acff9086bf6fe10"
+  },
+  "communication": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "af0a39b748cd2230aaad8b53ecb3274e57cdd5810f750961a0dda47b0844bd8c"
+  },
+  "psychological-age": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "0a041df5e8ace37d9a7bc7f99913b961b9daa328eb30c99ece50ddbe17a61a6c"
+  },
+  "animal": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "9035331b3fefcb5f93865e59112ff88645ca80c6956269525e9c8b7790934476"
+  },
+  "villain": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "b591994822cc27a42aa9136c63a33df49f918ecad4990bcf061f8eebef6bb5a8"
+  },
+  "survival": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "3b5319204a534dff11cc5f26a6b2d1ec219da945f3c64eb0fe69edf6340906fa"
+  },
+  "online-persona": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "1697d1306b60ee9ca6b2ef6210e89ee8004f3beff4f0fa99001f582a6818ff19"
+  },
+  "social-energy": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "a7a5b05e5472b55889381415466b67b74f8416496304f39e56fa59dda55ab2d8"
+  },
+  "consumption": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "62b4ebcd2976032983abb43e5fec5e530ffcbe4d460b50826f13a991d4566198"
+  },
+  "career-interest": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "00264cfe3558f5be394569ec91da4748175ba9dd76e2c9310edae6939c9a8dc2"
+  },
+  "work-style": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "3a0fa341deaa49ab675247bef37908967cfece357c46c490b3e00be402329ff6"
+  },
+  "values": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "d32a654de30d4b0c9a7876b9d78f13cd334e8e97d99c0adbccfe644660021a34"
+  },
+  "learning": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "00c45b7a3102d30202545b5ab0432007f63f46a15f657f812282423ece4cc9fe"
+  },
+  "procrastination": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "1caf5cb1e33074d34b445dcb6ba7372bfe01588bb199d50af4a8a6d2caee76f6"
+  },
+  "decision": {
+    "version": 2,
+    "scoringVersion": 1,
+    "reportVersion": 2,
+    "hash": "e2ad756c5d506c5631fc9f8a01412f4bd7d498ad4a22bb402981dfe949248075"
+  }
+}
